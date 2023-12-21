@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px ;
+    grid-gap: 250px; 
+    width: 100%;
+    left: -60px;
+    justify-content: center; 
+    align-content: center; 
+    height: 260px;
+    position: absolute;
+    top: 200px;
+
+}
+.item{
+    
+    width: 240px;
+    text-align:left;
+}
+#cookiename{
+    position: absolute;
+    left: 348px;
+    top: 18px;
+}
+#price{
+    position: absolute;
+    left: 348px;
+    top: 57px;
+    color: #494444;
+}
+#order{
+    position: absolute;
+    border-radius: 15px;
+    top: 120px;
+    left: 348px;
+    width: 100px;
+    height: 30px;
+    border: 3px solid black;
+    text-align: center;
+    padding-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(115, 152, 163);
+    color: white;
+}
